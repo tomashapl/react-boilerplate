@@ -1,5 +1,8 @@
 # Boilerplate
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/0e70ac3f7dbec8cb6d30/maintainability)](https://codeclimate.com/github/tomashapl/boilerplate/maintainability)
+[![devDependencies Status](https://david-dm.org/tomashapl/boilerplate/dev-status.svg)](https://david-dm.org/tomashapl/boilerplate?type=dev)
+
 This boilerplate is very simple and you can quickly start project
 
 ## Includes
