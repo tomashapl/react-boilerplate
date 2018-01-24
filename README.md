@@ -7,10 +7,10 @@ This boilerplate is very simple and you can quickly start project
 
 ## Includes
 - React
--- hot reload
--- babel
+- Hot-reload
+- Babel
 - Redux
--- Redux-form
+- Redux-form
 - Stylus
 - Webpack
 - Static serving bundle
