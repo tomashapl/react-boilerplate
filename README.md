@@ -28,8 +28,8 @@ npm i
 For development which includes `hot-reload`
 ```
 npm run dev
-open http://localhost:8080
 ```
+open http://localhost:8080
 
 ## Build
 
@@ -37,3 +37,7 @@ For production release
 ```
 npm run build
 ```
+
+## Known issues
+React Hot Loader: this component is not accepted by Hot Loader
+https://github.com/gaearon/react-hot-loader/issues/650
