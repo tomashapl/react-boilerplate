@@ -11,7 +11,7 @@ This boilerplate is very simple and you can quickly start project
 - Webpack
 - Static serving bundle
 
-# Get started!
+## Get started!
 
 Clone repo and install dependencies
 ```
@@ -19,13 +19,13 @@ git clone https://github.com/tomashapl/boilerplate.git
 npm i
 ```
 
-# Dev server
+## Dev server
 For development which includes `hot-reload`
 ```
 npm run dev
 ```
 
-# Build
+## Build
 
 For production release
 ```
