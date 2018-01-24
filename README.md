@@ -40,4 +40,5 @@ npm run build
 
 ## Known issues
 React Hot Loader: this component is not accepted by Hot Loader
+
 https://github.com/gaearon/react-hot-loader/issues/650
