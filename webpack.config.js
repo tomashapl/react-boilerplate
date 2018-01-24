@@ -5,7 +5,6 @@ const path = require("path"),
   CopyWebpackPlugin = require('copy-webpack-plugin')
 
 var config = {
-  entry: ["./src/index.js",],
   output: {
     path: __dirname + "/build",
     filename: "bundle.js"
@@ -69,7 +68,7 @@ const devConfig = {
     "react-hot-loader/patch",
     "webpack-dev-server/client?http://localhost:8080",
     "webpack/hot/only-dev-server",
-    ...config.entry
+    "./src/index.dev.js",
   ],
   module: {
     rules: [
@@ -94,6 +93,9 @@ const devConfig = {
 }
 
 const prodConfig = {
+  entry: [
+    "./src/index.prod.js"
+  ],
   plugins: [
     ...config.plugins,
     new ExtractTextPlugin("[name].css", {

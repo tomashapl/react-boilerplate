@@ -28,6 +28,7 @@ npm i
 For development which includes `hot-reload`
 ```
 npm run dev
+open http://localhost:8080
 ```
 
 ## Build
