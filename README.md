@@ -7,6 +7,7 @@ This boilerplate is very simple and you can quickly start project
 -- hot reload
 -- babel
 - Redux
+-- Redux-form
 - Stylus
 - Webpack
 - Static serving bundle
