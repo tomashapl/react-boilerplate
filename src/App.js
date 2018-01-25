@@ -5,7 +5,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="Boilerplate">
-        This is Boilerplate
+        This is REACT BOILERPLATE
       </div>
     )
   }
