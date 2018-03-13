@@ -10,17 +10,7 @@ var config = {
     filename: "bundle.js"
   },
 
-  devServer: {
-    inline: true,
-    contentBase: "./build",
-    publicPath: "/",
-    hot: true,
-    port: 8080,
-  },
-
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NamedModulesPlugin(),
     new CopyWebpackPlugin([{
       from: "assets/**/*",
       context: "./src/",
@@ -69,6 +59,20 @@ const devConfig = {
     "webpack-dev-server/client?http://localhost:8080",
     "webpack/hot/only-dev-server",
     "./src/index.dev.js",
+  ],
+
+  devServer: {
+    inline: true,
+    contentBase: "./build",
+    publicPath: "/",
+    hot: true,
+    port: 8080,
+  },
+
+  plugins: [
+    ...config.plugins,
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NamedModulesPlugin(),
   ],
   module: {
     rules: [
