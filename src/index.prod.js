@@ -7,6 +7,7 @@ import reducers from "./reducers"
 import App from "./App"
 
 const store = createStore(reducers)
+require("./App.styl")
 
 ReactDOM.render(
     <Provider store={store}>
